@@ -1,0 +1,12 @@
+.habit {
+    display: flex;
+    align-itens: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid purple;
+    border-radius: 8px;
+    background-color: purple;
+    margin-bottom: 10px
+}
