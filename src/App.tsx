@@ -1,12 +1,18 @@
 import { useState } from 'react'
-import './App.css'
-import { Habit } from "./components/Habit"
+import './styles/global.css'
+import { Header } from './components/Header'
+import { SummaryTable } from './components/SummaryTable'
 
 function App() {
   return (
-    <div className="App">
-      <Habit completed={3} />
-      <Habit completed={10} />
+    <div className="w-screen h-screen flex justify-center items-center">
+      <div className="w-full max-w5xl px-6 flex flex-col gap-16">
+
+        <Header />
+
+        <SummaryTable />
+          
+      </div>
     </div>
   )
 }
